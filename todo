@@ -1,0 +1,14 @@
+# Next
+- cookiecutter
+  ask: name
+  ask: description
+  get: year for license
+  get: git author name and email for pyproject.toml
+- makefile: git init && hub create && git push -m "Initial commit"
+
+# Someday Maybe
+- Linters for toml, yaml, json, markdown, makefile
+- pytest-cov
+- .pre-commit-config.yaml
+- Github Actions
+- Docker
