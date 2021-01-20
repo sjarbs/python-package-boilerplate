@@ -3,6 +3,8 @@ PACKAGES := $(PACKAGE) tests
 
 install:
 	poetry install
+update:
+	poetry update
 format:
 	poetry run isort $(PACKAGES)
 	poetry run black $(PACKAGES)
